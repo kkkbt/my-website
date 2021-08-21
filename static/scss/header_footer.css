@@ -17,17 +17,16 @@
 footer .nav {
   padding: 5% 0 5% 15%;
 }
-footer .nav .nav-item a {
-  color: white;
-}
 footer .nav .nav-item .btn {
   margin: 5% 0 0 5%;
 }
-footer .nav .copy-notice {
-  padding: 10% 0 0 5%;
+footer .copy-notice {
+  display: inline-block;
+  padding: 0 0 2% 2%;
   color: white;
+  text-align: right;
 }
-footer .nav .copy-notice p {
+footer .copy-notice p {
   color: white;
 }
 

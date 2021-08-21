@@ -28,7 +28,7 @@ footer {
 
     .nav-item {
       a {
-        color: white;
+        //color: white;
       }
 
       .btn {
@@ -37,14 +37,17 @@ footer {
       }
     }
 
-    .copy-notice {
-      padding: 10% 0 0 5%;
+
+  }
+
+  .copy-notice {
+    display: inline-block;
+    padding: 0 0 2% 2%;
+    color: white;
+    text-align: right;
+
+    p {
       color: white;
-
-      p {
-        color: white;
-      }
     }
-
   }
 }
