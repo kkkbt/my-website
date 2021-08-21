@@ -1,40 +1,54 @@
-    <footer>
-      <div class="container-fluid bg-dark">
+<footer>
+    <div class="container-fluid bg-dark">
         <div class="row">
-          <div class="col-4">
-            <p>Link</p>
-          </div>
-          <div class="col-4">
-            Link
-          </div>
-          <div class="col-4">
-            Link
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4">
-            Link
-          </div>
-          <div class="col-4">
-            Link
-          </div>
-          <div class="col-4">
-            Link
-          </div>
-        </div>
+            <div class="col-lg-6 col-12">
+                <ul class="nav ms-auto flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('profile') }}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('application') }}">Application</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('library') }}">Library</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('investment') }}">Investment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('biography') }}">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-        <div id="gotop">
-          <a href="#blank">TOP</a>
+            <div class="col-md-6 col-12 justify-content-center">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light">日本語 / English</button>
+                    </li>
+                    <li class="nav-item copy-notice">
+                        <p>Copyright © kbt</p>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div id="startmy">
-          <p>from 7/2020</p>
+            <p>from 7/2020</p>
         </div>
 
-      </div>
+    </div>
 
 
+</footer>
 
-    </footer>
-
-  </body>
+</body>
 </html>

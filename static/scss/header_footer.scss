@@ -1,6 +1,12 @@
 // header
 #navbarSupportedContent {
-  float: right;
+  .navbar-nav {
+    margin-right: 0;
+
+    .nav-item {
+      float: right;
+    }
+  }
 }
 
 
@@ -16,5 +22,29 @@
 
 
 // footer
+footer {
+  .nav {
+    padding: 5% 0 5% 15%;
 
+    .nav-item {
+      a {
+        color: white;
+      }
 
+      .btn {
+        margin: 5% 0 0 5%;
+
+      }
+    }
+
+    .copy-notice {
+      padding: 10% 0 0 5%;
+      color: white;
+
+      p {
+        color: white;
+      }
+    }
+
+  }
+}

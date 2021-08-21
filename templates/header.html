@@ -11,12 +11,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <li><a class="nav-link active" href="{{ url_for('profile') }}" class="button">Profile</a></li>
+                    <li><a class="nav-link" href="{{ url_for('profile') }}" class="button">Profile</a></li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('profile') }}">Application</a>
+                        <a class="nav-link" href="{{ url_for('application') }}">Application</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('library') }}">Library</a>
@@ -25,22 +25,22 @@
                         <a class="nav-link" href="{{ url_for('investment') }}">Investment</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="biography" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="{{ url_for('biography') }}" id="navbarDropdown" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             Biography
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Study Abroad</a></li>
-                            <li><a class="dropdown-item" href="#">Work</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('biography') }}">Study Abroad</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('biography') }}">Work</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">School</a></li>
-                            <li><a class="dropdown-item disabled" href="#">Chinese</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('biography') }}">School</a></li>
+                            <li><a class="dropdown-item disabled" href="{{ url_for('biography') }}">Chinese</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('profile') }}" tabindex="-1">Contact</a>
+                        <a class="nav-link" href="{{ url_for('contact') }}" tabindex="-1">Contact</a>
                     </li>
                 </ul>
             </div>

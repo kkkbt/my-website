@@ -1,4 +1,7 @@
-#navbarSupportedContent {
+#navbarSupportedContent .navbar-nav {
+  margin-right: 0;
+}
+#navbarSupportedContent .navbar-nav .nav-item {
   float: right;
 }
 
@@ -9,6 +12,23 @@
   margin: auto;
   object-fit: cover;
   display: grid;
+}
+
+footer .nav {
+  padding: 5% 0 5% 15%;
+}
+footer .nav .nav-item a {
+  color: white;
+}
+footer .nav .nav-item .btn {
+  margin: 5% 0 0 5%;
+}
+footer .nav .copy-notice {
+  padding: 10% 0 0 5%;
+  color: white;
+}
+footer .nav .copy-notice p {
+  color: white;
 }
 
 /*# sourceMappingURL=header_footer.css.map */
