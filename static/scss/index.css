@@ -1,0 +1,13 @@
+body {
+  background-color: black; }
+  body #carouselExampleInterval .carousel-item {
+    height: 100%;
+    display: grid; }
+    body #carouselExampleInterval .carousel-item img {
+      max-width: 100%;
+      max-height: 92vh;
+      min-height: 90vh;
+      margin: auto;
+      object-fit: cover; }
+
+/*# sourceMappingURL=index.css.map */
